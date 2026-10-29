@@ -38,6 +38,10 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".TargetAppPickerActivity"
+            android:exported="false" />
+
         <service
             android:name=".VirtualCameraService"
             android:exported="false"
